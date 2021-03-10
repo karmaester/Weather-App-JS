@@ -1,4 +1,5 @@
 import './scss/styles.scss';
+import showAlert from './alert';
 
 const api = {
   key: '0f3a4380db207fb3fc5258bdb3e25fa3',
@@ -84,7 +85,7 @@ function getResults(query) {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
     .then(weather => weather.json()).then(displayResults)
     .catch(() => {
-      alert('Input a valid city');
+      showAlert('Input a valid city');
     });
 }
 

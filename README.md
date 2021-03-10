@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[Live version](https://karmaester.github.io/Restaurant-JS/)
+[Live version](https://karmaester.github.io/Weather-App-JS/)
 
 ## :hammer: Built With
 

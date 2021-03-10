@@ -1,1 +1,50 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"/><title>Weather App</title><script defer="defer" src="./app.js"></script><link href="./main.css" rel="stylesheet"></head><body><nav><div class="nav__brand"><h1><span>W</span>eather <i class="fas fa-wind"></i>N<span>OW</span></h1></div></nav><main><div class="container"><form action="" id="city-search"><input class="search" placeholder="Type a city name"/></form><section class="location"><div class="city">San Cristobal, VE</div><div class="date">Tuesday 9 March 2021</div></section><div class="current"><div class="temp"><span class="temperature">27</span><span class="letter">°c</span></div><div class="weather">Clouds</div><div class="hi-low"><span class="temperature">25</span><span class="letter">°c</span> / <span class="temperature">28</span><span class="letter">°c</span></div></div><button class="temp-changer"><span id="celsius" class="bolder">°C </span>/ <span id="fahrenheit">°F</span></button></div></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <title>Weather App</title>
+  <script defer src="./app.js"></script><link href="./main.css" rel="stylesheet"></head>
+  <body>
+    <nav>
+      <div class="nav__brand">
+        <h1>
+          <span>W</span>eather <i class="fas fa-wind"></i>N<span>OW</span>
+        </h1>
+      </div>
+    </nav>
+    <main>
+      <div class="alert-div"></div>
+      <div class="container">
+        <form action="" id="city-search">
+          <input type="text" class="search" placeholder="Type a city name" />
+        </form>
+        <section class="location">
+          <div class="city">San Cristobal, VE</div>
+          <div class="date">Tuesday 9 March 2021</div>
+        </section>
+        <div class="current">
+          <div class="temp">
+            <span class="temperature">27</span><span class="letter">°c</span>
+          </div>
+          <div class="weather">Clouds</div>
+          <div class="hi-low">
+            <span class="temperature">25</span><span class="letter">°c</span> /
+            <span class="temperature">28</span><span class="letter">°c</span>
+          </div>
+        </div>
+        <button class="temp-changer">
+          <span id="celsius" class="bolder">°C </span>/
+          <span id="fahrenheit">°F</span>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
