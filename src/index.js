@@ -43,7 +43,7 @@ tempChanger.addEventListener('click', () => {
   }
 });
 
-function dateBuilder(d) {
+const dateBuilder = (d) => {
   const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -53,9 +53,9 @@ function dateBuilder(d) {
   const year = d.getFullYear();
 
   return `${day} ${date} ${month} ${year}`;
-}
+};
 
-function displayResults(weather) {
+const displayResults = (weather) => {
   const { icon } = weather.weather[0];
   const iconDiv = document.querySelector('.icon');
   iconDiv.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
@@ -89,15 +89,15 @@ function displayResults(weather) {
     celsius.classList.toggle('bolder');
     fahrenheit.classList.toggle('bolder');
   }
-}
+};
 
-function getResults(query) {
+const getResults = (query) => {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
     .then(weather => weather.json()).then(displayResults)
     .catch(() => {
       showAlert('Input a valid city');
     });
-}
+};
 
 const searchbox = document.querySelector('.search');
 searchbox.addEventListener('keypress', (e) => {
