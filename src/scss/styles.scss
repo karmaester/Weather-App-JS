@@ -232,7 +232,6 @@ button {
   justify-content: center;
 
   .alert {
-    width:fit-content;
     text-align: center;
     margin-top: 1rem;
     padding: 1rem;
@@ -241,7 +240,6 @@ button {
     color: $text-color;
   }
 }
-
 
 @media (max-width: 768px) {
   nav {
