@@ -21,19 +21,41 @@
       </div>
     </nav>
     <main>
+      <div class="alert-div"></div>
       <div class="container">
         <form action="" id="city-search">
           <input type="text" class="search" placeholder="Type a city name" />
         </form>
         <section class="location">
-          <div class="city">Northampton, GB</div>
-          <div class="date">Thursday 10 January 2020</div>
+          <div class="city">San Cristobal, VE</div>
+          <div class="date">Tuesday 9 March 2021</div>
         </section>
         <div class="current">
-          <div class="temp">15<span>°c</span></div>
-          <div class="weather">Sunny</div>
-          <div class="hi-low">13°c / 16°c</div>
+          <img
+            class="image"
+            src="https://cdn.solace.com/wp-content/uploads/2019/01/bg-clouds.jpg"
+            alt="bg"
+          />
+          <div class="temp">
+            <span class="temperature">27</span><span class="letter">°c</span>
+          </div>
+          <div class="icon-container">
+            <img
+              src="http://openweathermap.org/img/wn/04d@2x.png"
+              class="icon"
+              id="icon"
+            />
+          </div>
+          <div class="weather">Clouds</div>
+          <div class="hi-low">
+            <span class="temperature">25</span><span class="letter">°c</span> /
+            <span class="temperature">28</span><span class="letter">°c</span>
+          </div>
         </div>
+        <button class="temp-changer">
+          <span id="celsius" class="bolder">°C </span>/
+          <span id="fahrenheit">°F</span>
+        </button>
       </div>
     </main>
   </body>
