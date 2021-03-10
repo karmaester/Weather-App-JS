@@ -56,6 +56,16 @@ function dateBuilder(d) {
 }
 
 function displayResults(weather) {
+  const { icon } = weather.weather[0];
+  const iconDiv = document.querySelector('.icon');
+  iconDiv.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+  const image = document.querySelector('.image');
+  if (icon.slice(-1) === 'd') {
+    image.src = 'https://cdn.solace.com/wp-content/uploads/2019/01/bg-clouds.jpg';
+  } else if (icon.slice(-1) === 'n') {
+    image.src = 'https://discovery.sndimg.com/content/dam/images/discovery/fullset/2020/4/2/nightsky2_getty.jpg.rend.hgtvcom.616.411.suffix/1585862428885.jpeg';
+  }
+
   const city = document.querySelector('.location .city');
   city.innerText = `${weather.name}, ${weather.sys.country}`;
 

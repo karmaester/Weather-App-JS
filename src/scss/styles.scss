@@ -171,6 +171,17 @@ button {
 
 .current {
   margin: auto;
+  position: relative;
+
+  .image {
+    width: 110%;
+    max-height: 7.5rem;
+    border-radius: 30px;
+    max-width: 110%;
+    position: absolute;
+    z-index: -1;
+    left: -5%;
+  }
 
   .temp {
     color: $text-color;
@@ -181,6 +192,16 @@ button {
 
     span {
       font-weight: 500;
+    }
+  }
+
+  .icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .icon {
+      margin: -20px;
     }
   }
 
@@ -243,5 +264,9 @@ button {
 
   h1 {
     font-size: 3rem;
+  }
+
+  .image {
+    top: 2rem;
   }
 }
