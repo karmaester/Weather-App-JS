@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[Live version](https://karmaester.github.io/Restaurant-JS/)
+[Live version](https://karmaester.github.io/Weather-App-JS/)
 
 ## :hammer: Built With
 
@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Open the console
 - Download or git clone git@github.com:karmaester/Weather-App-JS.git
-- cd BWeather-App-JS
+- cd Weather-App-JS
 
 Install npm:
 
