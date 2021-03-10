@@ -1,9 +1,8 @@
-# Restaurant Porn Food
+# Weather NOW
 
-- Restaurant app buildt with javascript, webpack & sass. Totally responsive using grid & Tabsy template.
+- Weather app built as a practice for API implementation.
 
-![screenshot](src/components/img/screenshot1.png)
-![screenshot](src/components/img/screenshot2.png)
+![screenshot](src/images/screenshot.png)
 
 ## Live Demo
 
@@ -15,6 +14,7 @@
 - HTML
 - Sass
 - Webpack
+- openweather API
 
 ## :construction_worker: Getting Started
 
@@ -23,8 +23,8 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Open the console
-- Download or git clone git@github.com:karmaester/Restaurant-JS.git
-- cd Books-Books
+- Download or git clone git@github.com:karmaester/Weather-App-JS.git
+- cd BWeather-App-JS
 
 Install npm:
 
@@ -58,7 +58,7 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/karmaester/Restaurant-JS/issues).
+Feel free to check the [issues page](https://github.com/karmaester/Weather-App-JS/issues).
 
 ## :muscle: Show your support
 
@@ -69,6 +69,7 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Stand up Team
 - TylerPottsDev / weather-app-js
+- openweather API
 
 ## 📝 License
 
