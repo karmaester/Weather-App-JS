@@ -10,11 +10,11 @@
 
 ## :hammer: Built With
 
-- Javascript
+- JavaScript
 - HTML
 - Sass
 - Webpack
-- openweather API
+- OpenWeather API
 
 ## :construction_worker: Getting Started
 
@@ -69,7 +69,7 @@ Give a ⭐️ if you like this project!
 - Microverse
 - Stand up Team
 - TylerPottsDev / weather-app-js
-- openweather API
+- OpenWeather API
 
 ## 📝 License
 
